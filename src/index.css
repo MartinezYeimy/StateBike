@@ -1,0 +1,46 @@
+:root {
+  --negro: #050607;
+  --verde-oscuro: #153019;
+  --fondo: #F0FFE3;
+  --verde: #5FD34A;
+  --blanco: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--fondo);
+  color: var(--negro);
+}
+
+button,input {
+  font-family: inherit;
+}
+
+.boton {
+  min-width: 96px;
+  height: 48px;
+  padding: 0 24px;
+  background: transparent;
+  color: var(--negro);
+  border: 1px solid var(--verde-oscuro);
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.boton--primario {
+  background: var(--verde);
+  border-color: var(--negro);
+}
+
+.boton:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
