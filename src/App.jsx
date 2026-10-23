@@ -1,4 +1,4 @@
-import EstacionesPage from './pages/admin/estaciones/EstacionesPage.jsx/EstacionesPage';
+import EstacionesPage from './pages/admin/estaciones/EstacionesPage.jsx'
 
 function App() {
   return <EstacionesPage />;

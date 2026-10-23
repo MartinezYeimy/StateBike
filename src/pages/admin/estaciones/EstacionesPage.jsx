@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import AdminLayout from '../../../layouts/AdminLayout/AdminLayout';
-import EstacionesTable from './components/EstacionesTable';
+import AdminLayout from '../../../layouts/AdminLayout/AdminLayout.jsx';
+import EstacionesTable from './components/EstacionesTable.jsx';
 import './EstacionesPage.css';
 
 //Mock
