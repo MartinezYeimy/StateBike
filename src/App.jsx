@@ -1,7 +1,7 @@
-import EstacionesPage from './pages/admin/estaciones/EstacionesPage.jsx'
+import BicicletasPage from './pages/admin/bicicletas/BicicletasPage.jsx'
 
 function App() {
-  return <EstacionesPage />;
+  return <BicicletasPage />;
 }
 
 export default App;
