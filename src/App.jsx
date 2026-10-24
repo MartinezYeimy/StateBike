@@ -1,7 +1,7 @@
-import PlanesTarifasPage from './pages/admin/planes-tarifas/PlanesTarifasPage.jsx'
+import BicicletasPage from './pages/admin/bicicletas/BicicletasPage.jsx'
 
 function App() {
-  return <PlanesTarifasPage />;
+  return <BicicletasPage />;
 }
 
 export default App;
